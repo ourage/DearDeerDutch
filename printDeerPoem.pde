@@ -11,13 +11,13 @@ PImage preparePrinterImage(String poem) {
   pg.image(headicon, 0, 0);
   pg.fill(0);
   pg.textFont(fontPrint);
-  String title="Cinekid 2016"; // location name
+  String title="CINEKID 2016"; // location name
   stringWidth = pg.textWidth(title);
   pg.text(title, 180-stringWidth/2, 400);
-  String address="Pazzanistraat 37, ";//address line01
+  String address="Pazzanistraat 37";//address line01
   stringWidth = pg.textWidth(address);
   pg.text(address, 180-stringWidth/2, 440); // Center
-  String artistName=" 1014 DB Amsterdam";//address line02
+  String artistName="1014 DB Amsterdam";//address line02
   stringWidth = pg.textWidth(artistName);
   pg.text(artistName, 180-stringWidth/2, 480);//artist name location
   pg.textFont(fontPrintSmall);//below are poem
